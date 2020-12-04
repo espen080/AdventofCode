@@ -1,6 +1,6 @@
 import numpy
 
-lFile = open('C:\\Users\\eklungland001\\AdventofCode\\Day_1\\day1Input.txt','r')
+lFile = open('Day_1\\day1Input.txt','r')
 lines = lFile.read().splitlines()
 arr = numpy.array(lines)
 answer = 'The answer is {}. The integers are {} and {}'
